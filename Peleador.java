@@ -52,11 +52,10 @@ public class Peleador {
 
     @Override
     public String toString() {
-        return "Peleador{" +
-                "nombre='" + nombre + '\'' +
+        return "Peleador " +
+                    nombre  +
                 ", vida=" + vida +
                 ", defensa=" + defensa +
-                ", ataque=" + ataque +
-                '}';
+                ", ataque=" + ataque;
     }
 }
